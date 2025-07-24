@@ -1,0 +1,16 @@
+body {
+  font-size: 90%;
+  letter-spacing: 0.00vh;
+}
+
+a {
+  text-decoration: none; /* 移除所有超連結底線 */
+}
+
+input.form-control.is-valid {
+  background-image: url("check.png");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: 1.2em 1.2em;
+  padding-right: 2.5rem;
+}
